@@ -24,6 +24,8 @@ class Solution {
 - Java int vs. Integer type: an int simply represents a whole number, while an Integer has additional properties and methods. The int is one of Java’s eight Java *primitive* types, while the Integer wrapper class is one of hundreds of components included in the Java API. For example, if you want to declare a hash map of integer key-value pairs, `HashMap<Integer, Integer> mp = new HashMap<Integer, Integer>();`
 - Take note of the `new` keyword to create a new HashMap, Set, ArrayList, etc.!
 - `System.out.println("hi");`
+- Syntactically, "pointers" don't really exist in Java. 
+- 
   
 ### Set
 Set interface is declared as `public interface Set extends Collection`
@@ -61,5 +63,3 @@ s.isLetterOrDigit()
 Character.isLetterOrDigit(s.charAt(index))
 Character.toLowerCase(s.charAt(index))
 ```
-Syntactically, "pointers" don't really exist in Java. 
-
