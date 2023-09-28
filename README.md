@@ -49,3 +49,16 @@ cars.set(0, "Honda"); // change item in list
 cars.remove(0); // remove elem at idx 0 in arraylist
 cars.size()
 ```
+
+### Java string
+```
+String s = "fasd"
+s.charAt(index)
+s.toLowerCase()
+s.toUpperCase()
+s.isLetterOrDigit()
+// If you would like to use these methods per Character in the string, use the Character class
+Character.isLetterOrDigit(s.charAt(index))
+Character.toLowerCase(s.charAt(index))
+
+
