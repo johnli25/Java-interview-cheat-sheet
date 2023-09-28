@@ -60,5 +60,6 @@ s.isLetterOrDigit()
 // If you would like to use these methods per Character in the string, use the Character class
 Character.isLetterOrDigit(s.charAt(index))
 Character.toLowerCase(s.charAt(index))
-
+```
+Syntactically, "pointers" don't really exist in Java. 
 
